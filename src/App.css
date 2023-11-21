@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Circular std";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../public/circular-std-medium-500.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Circular std";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  --primary: rgba(61, 79, 92, 1);
+  --secondary: rgba(251, 137, 88, 1);
+  --background: rgba(251, 250, 250, 1);
+  --form: rgba(255, 195, 81, 1);
+  --links: rgba(70, 184, 200, 1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1,
+h2,
+.text-about {
+  color: var(--primary);
+}
+
+h4,
+h5,
+h3 {
+  color: var(--secondary);
+}
+
+.btn-primary {
+  background-color: var(--links) !important;
+  border-color: var(--links) !important;
+  width: fit-content;
+}
+
+.btn-secondary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  width: fit-content;
+}
+
+.button2 {
+  background-color: white !important;
+  border-color: var(--links) !important;
+  color: var(--links) !important;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.about {
+  background-color: var(--background);
+}
+.about-title {
+  position: relative;
+  display: inline-block;
+}
+.about-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 30px;
+  height: 1px;
+  background-color: var(--primary); /* Change this to the desired color */
+}
+
+.message {
+  background-color: var(--form);
+  background-image: url("https://i.postimg.cc/Z5r2Kt6V/Subtract.png");
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y: 70%;
+}
+
+.message h2,
+.message p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+address,
+.footer-logo {
+  color: rgba(147, 147, 147, 1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+footer a {
+  color: var(--links);
+}
+
+.work-card p {
+  color: var(--primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.message-form {
+  background-color: #f3f3f3;
+}
+
+.assistant {
+  position: relative;
+}
+
+.assistant-svg {
+  position: absolute;
+  right: 0;
+}
+
+header {
+  position: relative;
+  height: 70vh;
+}
+
+.header-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.green {
+  color: rgba(169, 188, 135, 1);
+}
+.blue {
+  color: rgba(0, 160, 182, 1);
+}
+.lightblue {
+  color: rgba(139, 181, 201, 1);
+}
+.purple {
+  color: rgba(139, 96, 211, 1);
+}
+
+form {
+  width: 50%
+}
+
+
+@media screen and (max-width: 767px)  {
+  form {
+    width: 100%
   }
 }
