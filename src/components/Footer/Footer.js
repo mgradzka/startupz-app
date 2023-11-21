@@ -31,13 +31,13 @@ function Footer() {
       <div className="card border-0 w-50 w-lg-25 align-items-lg-center align-items-start">
         <p>Follow us</p>
         <a href="twitter" className="mb-2">
-          <img src="https://i.postimg.cc/MpwpHt2m/twitter.png" alt="" />
+          <img src="https://i.postimg.cc/MpwpHt2m/twitter.png" alt="twitter" />
         </a>
         <a href="linkedin" className="mb-2">
-          <img src="https://i.postimg.cc/qvvW1C8d/Linkedin.png" alt="" />
+          <img src="https://i.postimg.cc/qvvW1C8d/Linkedin.png" alt="linkedin" />
         </a>
         <a href="instagram" className="mb-2">
-          <img src="https://i.postimg.cc/tJGLkSzr/instagram.png" alt="" />
+          <img src="https://i.postimg.cc/tJGLkSzr/instagram.png" alt="instagram" />
         </a>
       </div>
     </div>

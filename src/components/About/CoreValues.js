@@ -29,7 +29,7 @@ function CoreValues() {
       <div className="container pt-5 ">
         <div className="d-flex justify-content-between">
           <h2 className="display-6 my-4 ">Our core values</h2>
-          <img src={ideas} alt="" />
+          <img src={ideas} alt="ideas" />
         </div>
         <div className="d-flex flex-column flex-lg-row gap-5 pt-4 w-75"> {valuesCards}</div>
       </div>

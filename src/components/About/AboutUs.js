@@ -28,7 +28,7 @@ function AboutUs() {
 
 
         <h2 className="display-6 my-4 ">Who we are</h2>
-        <img src={question} alt="" />
+        <img src={question} alt="question" />
         </div>
         <h5 className="mb-4">
           We create products that have innovation and technology at their core.{" "}

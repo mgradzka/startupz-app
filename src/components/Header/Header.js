@@ -18,7 +18,7 @@ function Header({onClick}) {
           See our works
         </button>
       </div>
-      <img src={headerImg} className="img-fluid header-img d-lg-block d-none" alt="" />
+      <img src={headerImg} className="img-fluid header-img d-lg-block d-none" alt="header-image" />
     </header>
   );
 }

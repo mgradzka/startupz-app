@@ -7,7 +7,7 @@ function Hiring() {
 
   return (
     <section className="d-flex align-items-center justify-content-between about">
-      <img  src="https://i.postimg.cc/fWY6qCXX/Frame-4.png" className="my-4 d-lg-block d-none" alt=""/>
+      <img  src="https://i.postimg.cc/fWY6qCXX/Frame-4.png" className="my-4 d-lg-block d-none" alt="see openings"/>
       <div className="justify-items-center text-center ">
         <h2 className="display-6 mb-4">We are hiring!</h2>
         
@@ -24,7 +24,7 @@ function Hiring() {
           See current openings
         </a>
       </div>
-      <img  src="https://i.postimg.cc/Vvz4VqQB/Frame-5.png" className="my-4  d-lg-block d-none"  alt=""/>
+      <img  src="https://i.postimg.cc/Vvz4VqQB/Frame-5.png" className="my-4  d-lg-block d-none"  alt="see openings"/>
     </section>
   );
 }
