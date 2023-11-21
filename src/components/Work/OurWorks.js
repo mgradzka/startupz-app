@@ -1,8 +1,7 @@
 import React, { forwardRef } from "react";
 import WorkCard from "./WorkCard";
-import project1 from "../../assets/work1.png";
 
-function OurWorks({}, ref) {
+function OurWorks( _ ,ref) {
   const projects = [
     {
       title: "Tolq",
